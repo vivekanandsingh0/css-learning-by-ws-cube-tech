@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.hero {
+    width: 100%;
+    height: 600px;
+    background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    line-height: 30px;
+    background-image: url('/ZOMATO-CLONE/images/foods.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    img {
+        width: 131px;
+        height: 32px;
+        padding-top: 120px;
+    }
+
+    h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 48px;
+    }
+
+    p {
+        color: white;
+    }
+
+    .install-icons {
+        width: 320px;
+    }
+}
+
+.promotional-main {
+    background-image: url('/ZOMATO-CLONE/images/bg-drop.avif');
+    background-size: contain;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 700px;
+    align-items: center;
+}
+
+.promotional-left {
+    width: 26%;
+    height: 100%;
+    float: left;
+
+    img {
+        width: 105px;
+        height: 105px;
+        padding-top: 310px;
+        padding-left: 17px;
+
+    }
+}
+
+.promotional-middle {
+    width: 48%;
+    height: 100%;
+    float: left;
+}
+
+.promotional-middle h2 {
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: brown;
+    padding-top: 150px;
+}
+
+.promotional-middle p {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.promotional-right {
+    width: 26%;
+    height: 100%;
+    float: left;
+
+    img {
+        width: 105px;
+        height: 105px;
+    }
+
+    img#momos {
+        padding-top: 29px;
+        padding-left: 15px;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+    img#pizza {
+        padding-top: 350px;
+        padding-left: 0px;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+}
