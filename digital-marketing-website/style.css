@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.nav-main {
+    width: 100%;
+    height: 112px;
+    padding: 2px;
+    box-shadow: 0px 4px 4px 0px rgb(197, 197, 204);
+}
+
+.nav-container {
+    width: 100%;
+    margin: auto;
+    height: 110px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    img {
+        margin: 30px 5px;
+    }
+
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu-item {
+    width: 50px;
+    height: 50px;
+    margin-top: 43px;
+    margin-right: 10px;
+
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.hero-container {
+    width: 100%;
+    height: 600px;
+    background-image: url('/digital-marketing-website/images/slider-right-dec.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-left-content {
+    width: 45%;
+    height: 100%;
+
+    button {
+        width: 100px;
+        height: 40px;
+        background-color: rgba(5, 246, 102, 0.915);
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        border-color: aquamarine;
+    }
+}
+
+.hero-right-content {
+    width: 55%;
+    height: 100%;
+
+    img {
+        width: 800px;
+        height: 400px;
+        object-fit: contain;
+        object-position: 0px 50px;
+    }
+}
